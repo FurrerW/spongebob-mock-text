@@ -8,4 +8,4 @@ def sponge_case():
             spongebob_text += char.lower()
     print("HeRe Is YoUr MeMe TeXt: " + spongebob_text)
 
-sponge_case
+sponge_case()
