@@ -6,6 +6,13 @@ def sponge_case():
             spongebob_text += char.upper()
         else:
             spongebob_text += char.lower()
-    print("HeRe Is YoUr MeMe TeXt: " + spongebob_text)
-
+    print(spongebob_text)
+    
 sponge_case()
+
+def exit():
+    exit_input = input("Do you want to exit? y/n: ")
+    if exit_input == "y" or "Y":
+        exit()
+    else:
+        sponge_case()
