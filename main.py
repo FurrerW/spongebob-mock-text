@@ -6,6 +6,6 @@ def sponge_case():
             spongebob_text += char.upper()
         else:
             spongebob_text += char.lower()
-    print(spongebob_text)
+    print("HeRe Is YoUr MeMe TeXt: " + spongebob_text)
 
-sponge_case()
+sponge_case
