@@ -7,12 +7,10 @@ def sponge_case():
         else:
             spongebob_text += char.lower()
     print(spongebob_text)
-    
-sponge_case()
 
-def exit():
-    exit_input = input("Do you want to exit? y/n: ")
-    if exit_input == "y" or "Y":
-        exit()
-    else:
-        sponge_case()
+while True:
+    sponge_case()
+
+    exit_input = input("Do you want to exit? Y/N: ")
+    if exit_input.upper() == "Y":
+        break
